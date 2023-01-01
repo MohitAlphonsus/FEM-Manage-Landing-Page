@@ -1,0 +1,144 @@
+:root {
+  --color-primary-1: hsl(12, 88%, 59%);
+  --color-primary-2: hsl(228, 39%, 23%);
+  --color-light-gray: hsl(0, 0%, 98%);
+  --color-dark-gray: hsl(227, 12%, 61%);
+  --color-pale-red: hsl(13, 100%, 96%);
+  --color-dark-blue: hsl(233, 12%, 13%);
+  --shadow-primary: rgba(242, 95, 58, 0.5);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: var(--color-dark-gray);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+  height: 100%;
+}
+
+h1 {
+  color: var(--color-primary-2);
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 2rem 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 1rem;
+}
+
+.primary-nav {
+  width: 60%;
+}
+
+.primary-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.primary-nav-list li:last-child {
+  margin-left: auto;
+}
+
+.primary-nav-link:link,
+.primary-nav-link:visited {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: var(--color-dark-gray);
+  font-weight: 500;
+}
+
+.nav-cta.primary-nav-link:link,
+.nav-cta.primary-nav-link:visited {
+  padding: 1.4rem 3rem;
+  font-weight: 600;
+  border-radius: 10rem;
+  background-color: var(--color-primary-1);
+  color: var(--color-light-gray);
+  box-shadow: 0 0.5rem 1rem var(--shadow-primary);
+}
+.nav-cta.primary-nav-link:link:hover, .nav-cta.primary-nav-link:link:active,
+.nav-cta.primary-nav-link:visited:hover,
+.nav-cta.primary-nav-link:visited:active {
+  filter: brightness(120%);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero-text-box {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.hero-text-box h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+}
+.hero-text-box p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  width: 70%;
+}
+.hero-text-box button {
+  margin-top: 2rem;
+}
+
+.btn, .btn:link, .btn:visited {
+  display: inline-block;
+  padding: 1.4rem 3rem;
+  border-radius: 10rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.btn:hover, .btn:active {
+  filter: brightness(120%);
+}
+.btn--primary {
+  background-color: var(--color-primary-1);
+  color: var(--color-light-gray);
+  box-shadow: 0 0.5rem 1rem var(--shadow-primary);
+}
+
+/*# sourceMappingURL=styles.css.map */
