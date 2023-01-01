@@ -1,0 +1,25 @@
+.btn {
+	&,
+	&:link,
+	&:visited {
+		display: inline-block;
+		padding: 1.4rem 3rem;
+		border-radius: 10rem;
+		border: none;
+		cursor: pointer;
+		font-size: 1.4rem;
+		font-weight: 600;
+		transition: all 0.3s;
+	}
+
+	&:hover,
+	&:active {
+		filter: brightness(120%);
+	}
+
+	&--primary {
+		background-color: var(--color-primary-1);
+		color: var(--color-light-gray);
+		box-shadow: 0 0.5rem 1rem var(--shadow-primary);
+	}
+}
