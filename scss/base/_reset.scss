@@ -7,6 +7,8 @@
 
 	--color-pale-red: hsl(13, 100%, 96%);
 	--color-dark-blue: hsl(233, 12%, 13%);
+
+	--shadow-primary: rgba(242, 95, 58, 0.5);
 }
 
 *,
@@ -23,6 +25,8 @@ html {
 
 body {
 	line-height: 1;
+	font-family: 'Be Vietnam Pro', sans-serif;
+	color: var(--color-dark-gray);
 }
 
 a {
@@ -37,4 +41,8 @@ img,
 svg {
 	display: block;
 	height: 100%;
+}
+
+h1 {
+	color: var(--color-primary-2);
 }
