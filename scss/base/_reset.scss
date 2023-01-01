@@ -1,0 +1,40 @@
+:root {
+	--color-primary-1: hsl(12, 88%, 59%);
+	--color-primary-2: hsl(228, 39%, 23%);
+
+	--color-light-gray: hsl(0, 0%, 98%);
+	--color-dark-gray: hsl(227, 12%, 61%);
+
+	--color-pale-red: hsl(13, 100%, 96%);
+	--color-dark-blue: hsl(233, 12%, 13%);
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	line-height: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img,
+svg {
+	display: block;
+	height: 100%;
+}

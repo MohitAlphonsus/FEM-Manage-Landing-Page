@@ -1,0 +1,11 @@
+{
+	"name": "fem-manage-landing-page",
+	"version": "1.0.0",
+	"description": "Developing a design from front-end mentor site",
+	"main": "index.js",
+	"scripts": {
+		"compile:sass": "sass scss/main.scss css/styles.css -w"
+	},
+	"author": "mohit",
+	"license": "ISC"
+}
