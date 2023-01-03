@@ -22,4 +22,10 @@
 		color: var(--color-light-gray);
 		box-shadow: 0 0.5rem 1rem var(--shadow-primary);
 	}
+
+	&--secondary {
+		background-color: var(--color-light-gray);
+		color: var(--color-primary-1);
+		box-shadow: 0 0.5rem 1rem var(--shadow-light-gray);
+	}
 }
