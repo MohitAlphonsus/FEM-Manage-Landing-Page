@@ -269,6 +269,61 @@ p {
   flex-basis: 50%;
 }
 
+.footer {
+  padding: 6rem 0;
+  background-color: var(--color-primary-2);
+  height: 25em;
+  color: var(--color-light-gray);
+}
+.footer p {
+  font-size: 1.4rem;
+  color: var(--color-dark-gray);
+}
+
+.footer-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-col {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-col a {
+  color: var(--color-light-gray);
+  font-size: 1.4rem;
+}
+
+.footer-logo {
+  filter: brightness(10);
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+form input {
+  border: none;
+  background-color: var(--color-light-gray);
+  color: var(--color-primary-1);
+  border-radius: 10rem;
+  padding: 1.2rem 2rem;
+  margin-right: 1rem;
+}
+form input:focus {
+  outline: none;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.1);
+}
+
 .btn, .btn:link, .btn:visited {
   display: inline-block;
   padding: 1.4rem 3rem;
