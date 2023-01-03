@@ -2,3 +2,28 @@
 	max-width: 114rem;
 	margin: 0 auto;
 }
+
+.heading-secondary {
+	font-size: 4rem;
+
+	line-height: 1.2;
+	&--dark {
+		color: var(--color-primary-2);
+	}
+
+	&--light {
+		color: var(--color-light-gray);
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+.mg-bt-md {
+	margin-bottom: 4rem;
+}
+
+.mg-bt-lg {
+	margin-bottom: 10rem;
+}
