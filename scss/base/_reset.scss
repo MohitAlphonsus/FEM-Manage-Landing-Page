@@ -43,6 +43,14 @@ svg {
 	height: 100%;
 }
 
-h1 {
+h1,
+h2,
+h4 {
 	color: var(--color-primary-2);
+	line-height: 1.2;
+}
+
+p {
+	font-size: 1.6rem;
+	line-height: 1.6;
 }
