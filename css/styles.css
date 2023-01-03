@@ -41,7 +41,6 @@ svg {
 }
 
 h1,
-h2,
 h4 {
   color: var(--color-primary-2);
   line-height: 1.2;
@@ -55,6 +54,41 @@ p {
 .container {
   max-width: 114rem;
   margin: 0 auto;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+.heading-secondary--dark {
+  color: var(--color-primary-2);
+}
+.heading-secondary--light {
+  color: var(--color-light-gray);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mg-bt-md {
+  margin-bottom: 6rem;
+}
+
+.mg-bt-lg {
+  margin-bottom: 10rem;
+}
+
+.mg-tp-sm {
+  margin-top: 4em;
+}
+
+.mg-tp-md {
+  margin-top: 6em;
+}
+
+.mg-tp-lg {
+  margin-top: 10rem;
 }
 
 .header {
@@ -181,6 +215,43 @@ p {
 }
 .about-step h4 {
   font-size: 1.8rem;
+}
+
+.section-testimonials {
+  padding: 4rem 0;
+}
+
+.testimonials {
+  display: flex;
+  gap: 3rem;
+}
+
+.testimonial {
+  background-color: var(--color-light-gray);
+  position: relative;
+  padding: 6rem 2rem 2rem 2rem;
+}
+
+.customer-photo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.customer-photo--1 {
+  background-image: url("../images/avatar-anisha.png");
+}
+.customer-photo--2 {
+  background-image: url("../images/avatar-ali.png");
+}
+.customer-photo--3 {
+  background-image: url("../images/avatar-richard.png");
 }
 
 .btn, .btn:link, .btn:visited {

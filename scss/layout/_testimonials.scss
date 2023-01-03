@@ -1,0 +1,40 @@
+.section-testimonials {
+	padding: 4rem 0;
+}
+
+.testimonials {
+	display: flex;
+	gap: 3rem;
+}
+
+.testimonial {
+	background-color: var(--color-light-gray);
+	position: relative;
+	padding: 6rem 2rem 2rem 2rem;
+}
+
+.customer-photo {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	&--1 {
+		background-image: url('../images/avatar-anisha.png');
+	}
+
+	&--2 {
+		background-image: url('../images/avatar-ali.png');
+	}
+
+	&--3 {
+		background-image: url('../images/avatar-richard.png');
+	}
+}
